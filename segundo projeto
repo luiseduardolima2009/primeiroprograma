@@ -1,0 +1,16 @@
+int main() {
+    int banana = 24;
+int chute;
+printf("digite um numero: ");
+scanf("%d" , &chute);
+
+if(chute == banana){
+    printf("acertõ miserave!");
+}else{
+    printf("errou vacilão");
+}
+printf("\no numero era %d" , banana);
+
+    return 0;
+}
+
