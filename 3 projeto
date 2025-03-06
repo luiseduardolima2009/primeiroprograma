@@ -1,0 +1,21 @@
+include <stdio.h>
+
+
+int main() {
+int idade;
+printf ("digite sua senha: ");
+scanf ("%d", &idade);
+if(idade >=18){
+    printf("\nIsso é uma festa, divirta-se");
+}else if(idade >=12){
+   printf("\nVá beber uma fanta uva na barraquinha!"); 
+}else{
+    printf("\nVai beber todinho");
+}
+printf("\na sua idade é %d", idade);
+printf("\nva para casa! dormir");
+if(idade>= 65){
+    printf("\nPasse na farmácia");
+}
+    return 0;
+}
